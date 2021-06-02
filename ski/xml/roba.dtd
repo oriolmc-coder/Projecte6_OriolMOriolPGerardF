@@ -1,0 +1,7 @@
+<!ELEMENT roba (peÃ§a+)>
+<!ELEMENT peÃ§a (nom,talla,preu)>
+<!ELEMENT nom (#PCDATA)>
+<!ELEMENT talla (#PCDATA)>
+<!ELEMENT preu (#PCDATA)>
+
+<!ATTLIST peÃ§a id ID #REQUIRED>

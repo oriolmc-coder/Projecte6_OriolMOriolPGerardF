@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cascs SYSTEM "roba.dtd">
+
+<cascs>
+
+    <casc id="1">
+        <nom>CASC HEAD PER A NENS DE MENYS DE 6 ANYS</nom>
+        <talla>Nen/Nena</talla>
+        <preu>10</preu>
+        <imatge>casc1.jpg</imatge>
+    </casc>
+
+    <casc id="2">
+        <nom>CASC HEAD ADVANCED PER A MÉS DE 6 ANYS</nom>
+        <talla>Mitja</talla>
+        <preu>15</preu>
+        <imatge>casc2.jpg</imatge>
+    </casc>
+
+    <casc id="3">
+        <nom>CASC HEAD PRO PER A ADULTS COLOR BLANC</nom>
+        <talla>Adult</talla>
+        <preu>20</preu>
+        <imatge>casc3.jpg</imatge>
+    </casc>
+    
+    <casc id="4">
+        <nom>CASC PROFESSIONAL BRIKO FIBRA DE CARBONO</nom>
+        <talla>Professional</talla>
+        <preu>25</preu>
+        <imatge>casc4.jpg</imatge>
+    </casc>
+    
+</cascs>

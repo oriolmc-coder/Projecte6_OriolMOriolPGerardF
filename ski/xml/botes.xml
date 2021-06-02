@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE botes SYSTEM "roba.dtd">
+
+<botes>
+
+    <bota id="1">
+        <nom>BOTES SALOMON KIDS COLOR TARONJA INICIACIÓ</nom>
+        <talla>Nen/Nena</talla>
+        <preu>10</preu>
+        <imatge>bota1.jpg</imatge>
+    </bota>
+
+    <bota id="2">
+        <nom>BOTES NORDICA XTRAIL BEGINNER PER A NENS/NENES</nom>
+        <talla>Mitja</talla>
+        <preu>15</preu>
+        <imatge>bota2.jpg</imatge>
+    </bota>
+
+    <bota id="3">
+        <nom>BOTES QUICKSILVES PRO ADULT ALL TERRAIN FULL-GRIP</nom>
+        <talla>Adult</talla>
+        <preu>20</preu>
+        <imatge>bota3.jpg</imatge>
+    </bota>
+    
+    <bota id="4">
+        <nom>BOTES SALOMON S-PRO EXTREME SKI TECH BLACK</nom>
+        <talla>Professional</talla>
+        <preu>25</preu>
+        <imatge>bota4.jpg</imatge>
+    </bota>
+    
+</botes>

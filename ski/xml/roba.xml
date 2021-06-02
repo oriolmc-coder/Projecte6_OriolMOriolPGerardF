@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE roba SYSTEM "roba.dtd">
+
+<roba>
+
+    <peça id="1">
+        <nom>CONJUNT NORDICA BLANC TÈRMIC EXT</nom>
+        <talla>Nen/Nena</talla>
+        <preu>10</preu>
+        <imatge>roba1.jpg</imatge>
+    </peça>
+
+    <peça id="2">
+        <nom>CONJUNT ALPINA NEGRE / GRIS INICIACIÓ</nom>
+        <talla>Mitja</talla>
+        <preu>15</preu>
+        <imatge>roba2.jpg</imatge>
+    </peça>
+
+    <peça id="3">
+        <nom>CONJUNT QUICKSILVER CAMO PRO SUPER AILLANT</nom>
+        <talla>Adult</talla>
+        <preu>20</preu>
+        <imatge>roba3.jpg</imatge>
+    </peça>
+    
+    <peça id="4">
+        <nom>CONJUNT ALPÍ TEIXIT NYLON PROFESSIONAL</nom>
+        <talla>Professional</talla>
+        <preu>25</preu>
+        <imatge>roba4.jpg</imatge>
+    </peça>
+    
+</roba>

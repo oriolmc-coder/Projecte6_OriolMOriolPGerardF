@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE esquis SYSTEM "esquis.dtd">
+
+<esquis>
+
+    <esqui id="1">
+        <nom>ESQUIS ATOMIC GREEN ALIEN XTR2</nom>
+        <talla>Baixa</talla>
+        <preu>10</preu>
+        <imatge>producte1.jpg</imatge>
+    </esqui>
+
+    <esqui id="2">
+        <nom>ESQUIS DYNAFOT ADULT EXTREME 330</nom>
+        <talla>Mitja</talla>
+        <preu>15</preu>
+        <imatge>producte2.jpg</imatge>
+    </esqui>
+
+    <esqui id="3">
+        <nom>ESQUIS HEAD PRO CRAWLER OUTROAD SKI</nom>
+        <talla>Alta</talla>
+        <preu>20</preu>
+        <imatge>producte3.jpg</imatge>
+    </esqui>
+    
+    <esqui id="4">
+        <nom>ESQUIS NORDICA ADVANCED SKI FULLGRIP</nom>
+        <talla>Extrema</talla>
+        <preu>25</preu>
+        <imatge>producte4.jpg</imatge>
+    </esqui>
+    
+</esquis>
