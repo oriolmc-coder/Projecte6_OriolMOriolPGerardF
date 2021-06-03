@@ -326,21 +326,17 @@ if (cf.hores <= 2){
           
           
           public void db40() throws SQLException, ClassNotFoundException{
+               //creem l'objecte nou, i fem que l'arxiu cada vegada que es tanqui s'elimini
               Curs c1 = new Curs();
               File f = new File("curs.db4o");
               f.delete();
               ObjectContainer db = Db4oEmbedded.openFile(f.getAbsolutePath());
-              
-              
-              /////////////
-              
-              
+      
               conectar();
                  try{      
         String SQL = "Select * from curs ";            
         ResultSet rs = conn.createStatement().executeQuery(SQL);  
-        while(rs.next()){
-           
+        while(rs.next()){   
           c1.setNom_curs(rs.getString("nom"));
           c1.setId_curs(rs.getString("id_curs"));
     }
@@ -348,14 +344,11 @@ if (cf.hores <= 2){
           e.printStackTrace();
           System.out.println("No mostra");            
     }
-              
-             
-              /////////////
-              
+             //guardem l'objecte
               db.store(c1);
               Curs c = new Curs();
               ObjectSet <Curs> result = db.queryByExample(c);
-              
+              //imprimim el objecte inserit a la db4o
               while(result.hasNext()){
                   System.out.println(result.next());
               }
